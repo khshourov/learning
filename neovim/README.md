@@ -41,3 +41,49 @@
     :wqa - write and quit all
     :wa - write all
     :qa - quit all
+
+- 04
+    :set number
+    <by default [jk] move between lines instead of wrapped line>
+    <SHIFT>-g to last line
+    gg to first line
+    <line number>-gg / <line-number>-<SHIFT>-g
+    w to move between words <cursor will be at the begining of the next word> | b is the opposite command
+    w will treat [,] as separate word, to jump to next ascii word use <SHIFT>-w | <SHIFT>-b is the opposite command
+    0 - to the first column <it won't consider space> | ^ to the first non-whitespace character
+    $ - to the last column of the line
+    u - to undo
+    <CTRL>-r - to redo
+    f-<character> to jump to the specific character, ; to the next match, , to the previous match
+    t-<character> until to the specific character
+    /<specific word> [Enter], n to the next match, <SHIFT>-n to the previous, :nohlsearch/:noh for no highlight
+    Cursor in any character of a word, then <SHIFT>-a/* key will search the word, n to the next, <SHIFT>-n to the previous
+    e to the end of the word, then instead of i press a to append after the last character of the word
+    % will toggle between parentheses
+    v to visual mode, then % will highlight the word between parenthesis
+    <gg, <SHIFT>-v, <SHIFT>-g>
+    <SHIFT>-i to insert a the begining of the line
+
+    x - delete one character
+    dw - delete one word<without puntuation>, . will repeat the last action
+    d<SHIFT>w - delete one word with puntuation
+    d^ to delete start to cursor of a line
+    d$/<SHIFT>-d to delete cursor to end of a line
+    dt, - to delete up until comma
+    dd - to delete a full line
+    4dd - to delete four line
+    cw - delete current word and change to insert mode
+    cc = to change the entire line
+    <SHIFT>-c from cursor position to end of the line
+    yw - yank word
+    yy - yank whole line
+    p - put the yanked character
+    <SHIFT>-p to paste above the current line
+    o to new line after current line and change to insert line, <SHIFT>-o to the above
+    iw - select word when inside a word, aw - select word around the word (consider space if present)
+    diw/daw - to delete word when inside a word
+    iW/aW - to consider puntuation
+    i[parenthesis] - to consider parenthesis
+    <CTRL>-o - to go back to previous line | vim remembers even if we close our current vim session
+    <CTRL>-i - to go to the next line | mnemonic in/out
+    :Tutor
