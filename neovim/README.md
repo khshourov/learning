@@ -1,5 +1,6 @@
 # Notes [Neovim as a PHP and JavaScript IDE](https://laracasts.com/series/neovim-as-a-php-ide)
 
+<pre>
 - 02
     Install neovim - brew install neovim
     nvim to open Neovim
@@ -87,3 +88,5 @@
     <CTRL>-o - to go back to previous line | vim remembers even if we close our current vim session
     <CTRL>-i - to go to the next line | mnemonic in/out
     :Tutor
+
+</pre>
