@@ -108,4 +108,10 @@
     tmux kill-server will kill all the session 
     "ls -lash" will also include soft linked files/directories
 
+-08
+    - nvim/init.lua - entry point of configuration
+    - nanotee/nvim-lua-guide 
+    - cgn 
+    - nvim-lua/kickstart.nvim 
+
 </pre>
