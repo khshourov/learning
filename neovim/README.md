@@ -126,4 +126,43 @@
     - '=' to automatically manage indentation
     - PackerSync 
     - tpope/vim-commentary : gcc to comment/uncomment
+
+-12 
+    - <CTRL>-u/<CTRL>-d - up/down by page
+    - vim-surround
+    	cs ' " - to change from ' to "
+	or generally cs <current tag> <change tag>
+	dst - to delete surrounding tag
+	ds' - to delete surrounding quote
+    - vim-eunuch
+    - vim-unimpaired
+    - vim-sleuth
+    - vim-repeat
+    - vim-polyglot
+    - vim-tmux-navigator
+    	- Doesn't transition smoothly in my setup. Need to recheck.
+	- :only will kill all the buffer except the active buffer.
+    - vim-lastplace
+    - vim-visual-star-search
+    - vim-heritage
+    - vim-textobj-xmlattr
+    	vix,vax - to visually select inside/around the text for xml attributes
+	[doesn't work with current setup; need to recheck]
+    - vim-rooter
+    - nvim-autopairs
+    - neoscroll.nvim
+    - bufdelete.nvim
+        Instead of deleting buffer window, it will just delete the last buffer and go back to the previous buffer
+    - splitjoin.vim
+    	gS - to split, gJ - to join back
+    - vim-pasta
+    - :bdelete to buffer delete 
+    - :e will repoen the file
+
+    Vim Commentary 
+    - gcc | single line 
+    - gc<Motion>
+    - <Visual><Motion><gcc>
+    - :Start line, End lineCommentary
+
 </pre>
