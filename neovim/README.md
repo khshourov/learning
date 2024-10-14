@@ -114,4 +114,8 @@
     - cgn 
     - nvim-lua/kickstart.nvim 
 
+-09
+    - :source/:so will execute the current file and reload nvim
+    - :help <keyword>, :q to quit the help buffer
+
 </pre>
