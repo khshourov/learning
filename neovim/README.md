@@ -121,4 +121,9 @@
 -10
     - Alt - k mapping doesn't work. Maybe it conflicts with other mapping?
 
+-11
+    - Most popular package manager in nvim in packer.nvim 
+    - '=' to automatically manage indentation
+    - PackerSync 
+    - tpope/vim-commentary : gcc to comment/uncomment
 </pre>
