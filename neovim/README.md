@@ -89,4 +89,23 @@
     <CTRL>-i - to go to the next line | mnemonic in/out
     :Tutor
 
+- 07
+    Install tmux using command `brew install tmux` and after installation, use tmux to start the program
+    <CTRL>-b c - to create new window 
+             <number> - window number to switch between windows 
+             n - next window 
+             p - previous window
+             % - split into two vertical pane 
+	     Arrow keys - to select between panes
+             : - command prompt for tmux 
+	     :new-session -s <session name>
+             s - show list of sessions [<ESC> to escape the list windows]
+	     s -> Arrow keys - To select between sessions
+             d - to detach a session [Executing tmux should open the last session but it creates a new session; same with closing the terminal window]
+             x - to close a pane 
+
+    <CTRL>-d/exit will close the window 
+    tmux kill-server will kill all the session 
+    "ls -lash" will also include soft linked files/directories
+
 </pre>
