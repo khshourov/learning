@@ -118,4 +118,7 @@
     - :source/:so will execute the current file and reload nvim
     - :help <keyword>, :q to quit the help buffer
 
+-10
+    - Alt - k mapping doesn't work. Maybe it conflicts with other mapping?
+
 </pre>
