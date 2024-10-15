@@ -186,4 +186,11 @@
     - nvim-tree: Place cursor one a directory and press "a" to create a file under that directory
     - <Leader>n to toggle between file-tree open and close
 
+-15
+    - :on to reduced to only window
+    - ]b, [b to switch between buffer tabs
+    - Check Nerd fonts for icons
+    - <SPACE>-q to close buffer
+    ** dashboard plugin didn't work
+
 </pre>
