@@ -173,4 +173,17 @@
     - :PackerCompile to compile lua file
     - :PackerClean to clean commented out package 
 
+-14
+    - :Telescope
+    - :Telescope <command>[Ex. find_files]
+    - Press <ESC> to be in normal mode in Telescope and another <ESC> to quit it 
+    - :NvimTreeOpen 
+        - Press "a" will pre-fill the full path 
+    - Install rg command for ripgrep (`brew install rg`)
+    - <leader>g, type something, then <ctrl>k should add some advanced filtering; like visually it should add
+      double quote around search term and then you can type -t<file-type> and/or search directory. But <ctrl>k 
+      doesn't work in my setup.
+    - nvim-tree: Place cursor one a directory and press "a" to create a file under that directory
+    - <Leader>n to toggle between file-tree open and close
+
 </pre>
