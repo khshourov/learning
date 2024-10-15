@@ -165,4 +165,12 @@
     - <Visual><Motion><gcc>
     - :Start line, End lineCommentary
 
+-13
+    - :colorscheme <scheme name>
+    - :colorscheme default | back to default 
+    - :highlight
+    - :hi(short of :highlight) <Highlight type> guifg/guisp/...
+    - :PackerCompile to compile lua file
+    - :PackerClean to clean commented out package 
+
 </pre>
