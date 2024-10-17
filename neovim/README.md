@@ -197,4 +197,8 @@
     - :G blame - how can I close the diff buffer without using :q?
     - :GBrowse - will take you to github
     - :G
+-17
+    - :terminal to create a terminal buffer
+    - <F1> button doesn't work (tried: System settings > Keyboard > Keyboard shortcuts > Function Keys > Check "Use F1, F2 etc...")
+    - <CTRL>-d to delete a session
 </pre>
