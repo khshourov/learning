@@ -193,4 +193,8 @@
     - <SPACE>-q to close buffer
     ** dashboard plugin didn't work
 
+-16
+    - :G blame - how can I close the diff buffer without using :q?
+    - :GBrowse - will take you to github
+    - :G
 </pre>
