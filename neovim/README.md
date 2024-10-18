@@ -201,4 +201,11 @@
     - :terminal to create a terminal buffer
     - <F1> button doesn't work (tried: System settings > Keyboard > Keyboard shortcuts > Function Keys > Check "Use F1, F2 etc...")
     - <CTRL>-d to delete a session
+
+-19
+    - Quit vim before using :LspInfo 
+    - Before install specific lsp language, check the prerequisite. Like for Javascript, a jsconfig.json file required etc. Otherwise
+      lsp language server won't activate.
+    - Follow for more lsp: https://github.com/williamboman/mason-lspconfig.nvim
+    - <SHIFT>kk - to move inside floating window, q to quit
 </pre>
