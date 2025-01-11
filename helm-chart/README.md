@@ -12,5 +12,14 @@ helm version
 helm create helloworld
 helm install <Release Name> <Chart name>
 helm list -a
-helm uninstall <Chart name>
+helm uninstall <Release Name>
+```
+
+# Chapter 3
+```
+helm upgrade <Release name> <Chart name>
+helm rollback <Release name> <Revision number>
+helm <command> <Release name> --debug --dry-run <Chart name>
+helm template <Chart name>
+helm lint <Chart name>
 ```
