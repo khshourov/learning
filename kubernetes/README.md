@@ -2,3 +2,5 @@
 
 # Install minikube, kubectl
 brew install minikube kubectl
+
+minikube dashboard
