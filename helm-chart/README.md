@@ -23,3 +23,10 @@ helm <command> <Release name> --debug --dry-run <Chart name>
 helm template <Chart name>
 helm lint <Chart name>
 ```
+
+# Chapter 5
+```
+brew install helmfile
+helmfile -version
+helm plugin install https://github.com/aslafy-z/helm-git.git
+```
